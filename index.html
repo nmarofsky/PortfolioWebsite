@@ -9,11 +9,13 @@
         <link rel="icon" type="image/x-icon" href="assets/img/nm-logo.png" />
         
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
         
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
@@ -35,8 +37,8 @@
             </div>
         </nav>
         
-        <header class="masthead">
-            <div class="container">
+        <header class="masthead"> 
+            <div class="container" data-aos="fade-up">
                 <div class="masthead-subheading">Full-Stack Web Developer</div>
                 <div class="masthead-heading text-uppercase">Nick Marofsky</div>
                 <div class="button">
@@ -50,16 +52,16 @@
                         <span></span>
                     </a>
                 </div>
-            </div>
+            </div>  
         </header>
 
         <section class="page-section bg-light" id="portfolio">
-            <div class="container">
+            <div class="container" data-aos="fade-down">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
                     <h3 class="section-subheading text-muted">Gallery of projects & games created from scratch</h3>
                 </div>
-                <div class="row">
+                <div class="row" data-aos="fade-down-right">
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
@@ -102,6 +104,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row" data-aos="fade-down-left">
                     <div class="col-lg-4 col-sm-6 mb-4 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
@@ -144,8 +148,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
                     <div class="col text-center">
-                        <div class="button">
+                        <div class="button" data-aos="fade-up">
                             <a class="btn mt-5" href="assets/img/portfolio/Nicholas's_Resume.pdf" download>
                                 Download Résumé
                                 <span></span>
@@ -162,12 +167,12 @@
         </section>
         
         <section class="page-section" id="services">
-            <div class="container">
+            <div class="container" data-aos="fade-down">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Skills & Services</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" data-aos="fade-down">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-info"></i>
@@ -210,12 +215,12 @@
         
         <section class="page-section" id="about">
             <div class="container">
-                <div class="text-center">
+                <div class="text-center" data-aos="fade-down">
                     <h2 class="section-heading text-uppercase">About Nick</h2>
                     <h3 class="section-subheading text-muted">Short timeline of my life.</h3>
                 </div>
                 <ul class="timeline">
-                    <li>
+                    <li data-aos="fade-down-right">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/PIT.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -225,7 +230,7 @@
                             <div class="timeline-body"><p class="text-muted">Born in Baltimore, Maryland, I moved to Pittsburgh at the young age of 3. Throughout my childhood I enjoyed playing sports, skiing, camping, and video editing. </p></div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li class="timeline-inverted" data-aos="fade-down-left">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/eaglescout.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -235,7 +240,7 @@
                             <div class="timeline-body"><p class="text-muted">After being apart of the scouting family for 14 years, I had finally reached the top with the rank of Eagle Scout. An award I will cherish and be humbled by for my entire life.</p></div>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-down-right">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/iup.png" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -245,7 +250,7 @@
                             <div class="timeline-body"><p class="text-muted">I attended Indiana University of Pennsylvania's four year Communications Media program. It taught me so much about industry trends and how much has changed in the world of media over the past decades. There I graduated with a 3.4 GPA and an extremely hands on internship. </p></div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li class="timeline-inverted" data-aos="fade-down-left">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/enterprise.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -255,7 +260,7 @@
                             <div class="timeline-body"><p class="text-muted">Just a few months after earning my degree, I landed a job with the number one rental car company in America. There I learned the day to day tasks required to run a business. Also, I got hands on experience with how to deal with customers and hit sales quotas.</p></div>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-down-right">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/CLT.jpg"/></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -265,7 +270,7 @@
                             <div class="timeline-body"><p class="text-muted">After being in Pittsburgh for the greater part of my life, I decided to take a leap of faith and adventure down south. A couple weeks after the big move, a national pandemic broke out. This resulted in me being furloughed from enterprise and opening my eyes to a more excited career. Over the past few months, I have been deeply indulged in the world of coding. This has helped me discover not only a new career path, but a new passion. </p></div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li class="timeline-inverted" data-aos="fade-down-left">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/nucamp-logo.png"/></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -275,7 +280,7 @@
                             <div class="timeline-body"><p class="text-muted">While taking this boot camp, I acquired skills to become a full stack programmer. Full Stack Developers are computer programmers who are proficient in both front and back end coding. Their primary responsibilities include designing user interactions on websites, developing servers and databases for website functionality and coding for mobile platforms.</p></div>
                         </div>
                     </li>
-                    <li>
+                    <li data-aos="fade-down-right">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/upwork.png"/></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -291,7 +296,7 @@
         
         <div class="py-5">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="fade-down-left">
                     <div class="col-md-3 col-sm-6 my-3">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/html.png" alt="" /></a>
                     </div>
@@ -305,7 +310,7 @@
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/bootstrap.png" alt="" /></a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" data-aos="fade-down-right">
                     <div class="col-md-3 col-sm-6 my-3">
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/ReactJS.png" alt="" /></a>
                     </div>
@@ -323,7 +328,7 @@
         </div>
         
         <section class="page-section" id="contact">
-            <div class="container">
+            <div class="container" data-aos="fade-down">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Connect With Me</h2>
                     <h3 class="section-subheading text-muted"></h3>
@@ -364,9 +369,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left">Nick Marofsky</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/_slickknick_/"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/nmarofsky"><i class="fab fa-github"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/nick-marofsky-32835a14a/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/_slickknick_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/nmarofsky" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/nick-marofsky-32835a14a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-right">2020</div>
                 </div>
@@ -388,7 +393,17 @@
                                     <ul class="list-inline">
                                         <li>Date: June 2020</li>
                                         <li>Course: NuCamp Bootstrap</li>
-                                        <li><a href="https://queencity-brewery.netlify.app/">https://queencity-brewery.netlify.app/</a></li>
+                                        <li>
+                                            <a class="btn mt-3" href="https://queencity-brewery.netlify.app/" target="_blank">
+                                                Live Website
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </a>
+                                        </li> 
                                         <li><a class="btn btn-xs btn-dark btn-social mx-3 mt-2" href="https://github.com/nmarofsky/Queen-City-Brewery"><i class="fab fa-github"></i></a></li>
                                     </ul>
                                     <button class="btn btn-info" data-dismiss="modal" type="button">
@@ -416,7 +431,17 @@
                                     <p>This game was created with use of the jQuery JavaScript library. Also, small amounts of bootstrap were implemented to created visual effects.<ul class="list-inline">
                                         <li>Date: June 2020</li>
                                         <li>Course: NuCamp's Bootstrap</li>
-                                        <li><a href="https://jquerynumberguess.netlify.app/">https://jquerynumberguess.netlify.app/</a></li>
+                                        <li>
+                                            <a class="btn mt-3" href="https://jquerynumberguess.netlify.app/" target="_blank">
+                                                Live Website
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </a>
+                                        </li> 
                                         <li><a class="btn btn-xs btn-dark btn-social mx-3 mt-2" href="https://github.com/nmarofsky/guessing-game"><i class="fab fa-github"></i></a></li>
                                     </ul>
                                     <button class="btn btn-info" data-dismiss="modal" type="button">
@@ -444,8 +469,18 @@
                                         <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/BartArt3.png" alt="" />
                                     </div>
                                     <p>This website was created with the Javascript library React and the back-end was built using the Node Js library.</p>
-                                    <ul class="list-inline"> 
-                                        <li><a href="https://bartart.netlify.app/">https://bartart.netlify.app/</a></li>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <a class="btn" href="https://bartart.netlify.app/" target="_blank">
+                                                Live Website
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </a>
+                                        </li> 
                                         <li><a class="btn btn-xs btn-dark btn-social mx-3 mt-2" href="https://github.com/nmarofsky/BartArtReact"><i class="fab fa-github"></i></a></li>
                                     </ul>
                                     <hr/>
